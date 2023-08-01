@@ -65,7 +65,7 @@ body{
 .coluna1{
 
    position: absolute;
-   margin-top: 180px;
+   margin-top: 150px;
     align-items: center;
     left: 200px;
 }
@@ -77,10 +77,10 @@ body{
      2px -2px 2px #1D3557,                  
      2px 2px 2px #1D3557;
      color: #F1FAEE;
-     border: 2px 2px 2px 2px solid #E63946;
+    
 }
   
- }
+ 
    
 
 .profissaodesigner{
@@ -116,18 +116,20 @@ body{
     background: #E63946;
 }
 .sessaoimg1{
-    
-    height: vh;
+  
+    height: 20px 20px;
 
 }
 
 .coluna3{
-   
+
  display: flex;
  width: 85vw;
 justify-content: flex-end;
+
 }
 
 .coluna3 img{
+margin: -18px 0;
 
 }
