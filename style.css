@@ -1,135 +1,133 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(168,218,220);
-background: linear-gradient(90deg, rgba(168,218,220,1) 100%, rgba(0,212,255,1) 100%, rgba(168,218,220,1) 100%);
+    background: rgb(168, 218, 220);
+    background: linear-gradient(90deg, rgba(168, 218, 220, 1) 100%, rgba(0, 212, 255, 1) 100%, rgba(168, 218, 220, 1) 100%);
 }
 
-#textoDoLogotipo{
-  margin-left: 30px;
+#textoDoLogotipo {
+    margin-left: 30px;
     float: left;
     padding: 15px;
     width: 20px;
 
 }
-ul li{
+
+ul li {
     margin-top: 20px;
- 
+
 }
 
-
-#cabecalho{
+#cabecalho {
     background: #A8DADC;
 }
 
-#navegacao{
+#navegacao {
     float: right;
 }
 
-#navegacao > ul > li {
+#navegacao>ul>li {
     display: inline-block;
     margin-right: 20px;
     padding: 15px;
 }
 
-
-#navegacao > ul > li > a{
+#navegacao>ul>li>a {
     text-decoration: none;
     color: black;
     font-size: 20px;
 }
 
-#navegacao > ul > li > a:hover{
+#navegacao>ul>li>a:hover {
     color: #F1FAEE;
-    
+
 }
 
-
-header{
+header {
     overflow: hidden;
 
 }
-body{
-   
-}
-.sectionbody{
+
+.sectionbody {
     background-color: #457B9D;
 }
-.sessao-principal{
-    
- 
-    width: 100vw;
-   height: 15vh;
-}
-.coluna1{
 
-   position: absolute;
-   margin-top: 150px;
-    align-items: center;
+.sessao-principal {
+
+
+    width: 100vw;
+    height: 15vh;
+}
+
+.coluna1 {
+
+    position: absolute;
+    margin-top: 150px;
     left: 200px;
 }
-.nome{
-    font-size:40px;
-    text-shadow: 
-    -2px -2px 2px #1D3557, 
-    -2px 2px 2px #1D3557,                    
-     2px -2px 2px #1D3557,                  
-     2px 2px 2px #1D3557;
-     color: #F1FAEE;
-    
-}
-  
- 
-   
 
-.profissaodesigner{
+.nome {
+    font-size: 40px;
+    text-shadow:
+        -2px -2px 2px #1D3557,
+        -2px 2px 2px #1D3557,
+        2px -2px 2px #1D3557,
+        2px 2px 2px #1D3557;
+    color: #F1FAEE;
+
+}
+
+.profissaodesigner {
     font-size: 25px;
     margin-top: 10px;
 
 }
-.profissaodev{
+
+.profissaodev {
     font-size: 25px;
 
 }
-.coluna1 button{
+
+.coluna1 button {
     width: 70px;
     height: 70px;
     margin-top: 50px;
     border-radius: 100px 100px 100px 100px;
     margin-left: 10px;
     background: #1D3557;
-    border: 2px solid #A8DADC; 
+    border: 2px solid #A8DADC;
 
 }
 
-.botao{
-    color:#F1FAEE;
+.botao {
+    color: #F1FAEE;
     font-weight: 200;
 }
 
-.botao:hover{
+.botao:hover {
     background: #457B9D;
     border: 2px solid #1D3557;
 }
-.botao:active{
+
+.botao:active {
     background: #E63946;
 }
-.sessaoimg1{
-  
+
+.sessaoimg1 {
+
     height: 20px 20px;
 
 }
 
-.coluna3{
+.coluna3 {
+    width: 85vw;
 
- display: flex;
- width: 85vw;
-justify-content: flex-end;
 
 }
 
-.coluna3 img{
-margin: -18px 0;
+.coluna3 img {
+    margin: -15px 0;
+    float: right;
 
 }
